@@ -1,0 +1,39 @@
+.module-spacer--extra-extra-small {
+  height: 12px;
+}
+
+.module-spacer--extra-small {
+  height: 12px;
+}
+
+.module-spacer--small {
+  height: 20px;
+}
+
+.module-spacer--medium {
+  height: 32px;
+}
+
+.module-spacer--big {
+  height: 150px;
+}
+
+.background {
+  background-color: black;
+  padding-left: 400px;
+  z-index: 2000;
+}
+
+.font-sm {
+  font-size: 12px;
+}
+
+.font-lg {
+  font-size: 35px;
+}
+
+.content-width {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1090px;
+}

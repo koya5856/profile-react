@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Noto+Sans+JP:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&display=swap");
+.module-spacer--extra-extra-small {
+  height: 12px;
+}
+
+.module-spacer--extra-small {
+  height: 12px;
+}
+
+.module-spacer--small {
+  height: 20px;
+}
+
+.module-spacer--medium {
+  height: 32px;
+}
+
+.module-spacer--big {
+  height: 150px;
+}
+
+.background {
+  background-color: black;
+  padding-left: 400px;
+  z-index: 2000;
+}
+
+.font-sm {
+  font-size: 12px;
+}
+
+.font-lg {
+  font-size: 35px;
+}
+
+.content-width {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1090px;
+}
+
+.inview {
+  background-color: red;
+}
+
+body {
+  font-family: "Concert One", "Noto Sans JP", sans-serif;
+  overflow-x: hidden;
+}
+
+.slider-top {
+  position: relative;
+  background-color: #faf5ea;
+}
+
+.slider-top__title {
+  position: absolute;
+  letter-spacing: 42px;
+  left: 117;
+  top: 0;
+  z-index: 1000;
+  font-size: 50px;
+  right: 41px;
+}
+
+.makeStyles-backIntro-15::before {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 10%;
+  left: 0;
+  width: 100%;
+  height: 90%;
+  background: #f5f6f7;
+  z-index: -1000;
+}
+
+#test .inview {
+  background-color: red;
+}

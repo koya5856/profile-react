@@ -1,0 +1,41 @@
+@import "base";
+@import "BackScroll";
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Noto+Sans+JP:wght@400;700&display=swap");
+// @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&display=swap");
+body {
+  font-family: "Concert One", "Noto Sans JP", sans-serif;
+  overflow-x: hidden;
+}
+
+.slider-top {
+  position: relative;
+  background-color: #faf5ea;
+  &__title {
+    position: absolute;
+    letter-spacing: 42px;
+    left: 117;
+    top: 0;
+    z-index: 1000;
+    font-size: 50px;
+    right: 41px;
+  }
+}
+// .makeStyles-display-13 {
+//   padding-left: 20px;
+// }
+
+.makeStyles-backIntro-15::before {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 10%;
+  left: 0;
+  width: 100%;
+  height: 90%;
+  background: #f5f6f7;
+  z-index: -1000;
+}
+#test .inview {
+  background-color: red;
+}
